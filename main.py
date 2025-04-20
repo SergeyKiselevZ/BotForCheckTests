@@ -10,7 +10,7 @@ async def main():
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     )
-    bot = Bot(token="7809441810:AAGUAFcHveZfOcg-g9jO9YQbcfXvY9028PU")
+    bot = Bot(token="")
     dp = Dispatcher()
 
     dp.include_routers(handler_hi.router, handler_processing_new_test.router)
